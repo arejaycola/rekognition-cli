@@ -1,0 +1,31 @@
+{
+    "JobStatus": "SUCCEEDED",
+    "VideoMetadata": {
+        "Codec": "h264",
+        "DurationMillis": 15015,
+        "Format": "QuickTime / MOV",
+        "FrameRate": 29.970029830932617,
+        "FrameHeight": 1080,
+        "FrameWidth": 1920,
+        "ColorRange": "LIMITED"
+    },
+    "ModerationLabels": [
+        {
+            "Timestamp": 4004,
+            "ModerationLabel": {
+                "Confidence": 71.00408935546875,
+                "Name": "Violence",
+                "ParentName": ""
+            }
+        },
+        {
+            "Timestamp": 4004,
+            "ModerationLabel": {
+                "Confidence": 71.00408935546875,
+                "Name": "Weapons",
+                "ParentName": "Violence"
+            }
+        }
+    ],
+    "ModerationModelVersion": "5.0"
+}
